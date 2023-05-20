@@ -1,0 +1,302 @@
+header{
+	top:0;
+	position: absolute;
+	width: 100%;
+	background-color: #052257;
+
+}
+
+h2{
+	
+	font-family: Impact;
+	letter-spacing: 1px;
+	
+}
+
+.lefth2{
+	text-align: left;
+	font-size: 30px;
+	margin-left: 100px;
+    font-family: Impact;
+}
+
+.Centrdh2 {
+	
+	font-size:40px;
+	text-align:center; 
+   font-family: Impact;
+	
+}
+
+.bottomborder {
+	
+	border-bottom: 3px solid black;
+}
+
+h1{
+text-align:center; 
+font-size:50px; 
+margin-bottom:0; 
+font-family: Impact;
+}
+
+.rightpMAIN2{
+  
+  text-align: right;
+  font-family: Impact;
+  padding-right: 70px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  line-height: 28px;
+  
+  
+}
+
+.leftpMAIN{
+  text-align: left;
+ font-family: Impact;
+  padding-left: 20px;
+  font-size: 20px;
+  margin: 40px;
+  line-height: 30px;
+  padding-top: 35px;
+}
+
+.rightpMAIN{
+  
+  text-align: right;
+  font-family: Impact;
+  padding-right: 40px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  line-height: 28px;
+  
+}
+
+.imgright{
+	
+	float: right;
+	
+	margin-left:60px;
+	margin-right:40px;
+	
+}
+.imgleft{
+	
+	float: left;
+	
+	margin-left:30px;
+	margin-right:40px;
+	
+}
+.imgCentrd{
+	
+	
+	margin-left:385px;
+	
+}
+
+.imgleft2{
+	
+	float: left;
+	
+	margin-left:90px;
+	margin-right:40px;
+	
+}
+.imgright2{
+	
+	float: right;
+	
+	margin-right:100px;
+	margin-left:40px;
+	
+}
+#body1{
+	
+	margin:50px;
+	position: relative;
+	border-bottom: 3px solid black;
+}
+
+
+	
+	#toggle{
+		
+		float: right;
+		transition: 0.5s;
+		position: relative;
+		top: 10px;
+		display: block;
+		height: 75px;
+		width: 150px;
+		border-radius: 100px;
+		background: #222;		
+	      
+	}
+	
+	
+	#toggle .indicator{
+		
+		position: absolute;
+		
+		width: 75px;
+		height: 75px;
+		border-radius: 50%;
+		background: linear-gradient(to bottom, #444,#222);
+		transition: 0.5s;
+		 cursor: pointer;
+	}
+	
+	 #toggle.active .indicator{
+		 
+		 left: 75px;
+		 right: 75px;
+		 
+	 }
+	
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	
+	/* transition: 0.5s; */
+}
+
+body.active{
+	background-color: #2f3238;
+	color: white;	
+}
+
+
+.Redcross{
+ padding-top: 10px;
+ padding-left: 20px;
+ margin-bottom: 7px;
+
+}
+
+.TITLE{
+   position: absolute;
+   padding-left: 370px;
+   padding-top: 5px;
+   color: white;
+   font-size: 60px;
+   font-family: Impact;
+}
+.togger{
+	
+	float: right;
+	color: white;
+	margin: 10px;
+	font-family: Impact;
+	
+}
+
+.beginlist {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+
+
+}
+
+.robber {
+transition: ease, 1.3s;
+background-color:   #17408b;
+color: white;
+}
+
+.robber:hover {
+transform: scale(0.9,0.9);
+background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+font-family: Impact;
+display: block;
+padding: 16px;
+text-decoration: none;
+
+font-size: 18px;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+ul {
+font-size:25px;
+ font-family: Impact;
+ margin-bottom:0;
+
+}
+ 
+.bar{
+background-color:  #17408b;
+height:60px;
+text-align:center;
+display:flex;
+justify-content:space-around;
+margin-top: 10px;
+position: -webkit-sticky;
+position: sticky;
+top:0;
+z-index:5;
+
+
+}
+
+.bigsport{
+	
+	border-top: 3px solid #a2c1fa; 
+	border-bottom: 3px solid #a2c1fa; 
+	
+}
+
+#white{	
+	background-color: white;	
+}
+
+* {
+scroll-behavior: smooth;
+}
+
+
+#body1crazy{
+	
+	
+	position: relative;
+	border-bottom: 3px solid black;
+	background-color: #114dba;
+	color: white;
+	height: 700px;
+	width: 100%;
+	
+}
+
+.epic{
+	color: white;
+	font-size: 15px;
+}
+
+.foot{
+	
+	background-color:  #17408b;
+	position: -webkit-sticky;
+position: sticky;
+bottom:0;
+z-index:5;
+font-family: Impact;
+ 
+ color: white;
+ height: 100%;
+ width:100%;
+	
+}
+
